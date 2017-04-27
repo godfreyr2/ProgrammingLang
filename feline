@@ -1,0 +1,6 @@
+cat(fluffy).
+cat(pandora).
+lion(leo).
+feline(x) :- cat(x).
+feline(x) :- lion(x).
+furry(x) :- feline(x).

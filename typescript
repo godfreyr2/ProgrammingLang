@@ -1,0 +1,33 @@
+Script started on Tue 04 Apr 2017 12:25:11 PM EDT
+]0;godfreyr2@elvix2:~/proglang[godfreyr2@elvix2 ~/proglang]$ script[32Gclear[K[32Glp -d advlab prologTest.prolog[51G[1@Other[63G[32G[7Pemacs[56G[32Gswipl[K
+Welcome to SWI-Prolog (Multi-threaded, 64 bits, Version 7.2.3)
+Copyright (c) 1990-2015 University of Amsterdam, VU Amsterdam
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software,
+and you are welcome to redistribute it under certain conditions.
+Please visit http://www.swi-prolog.org for details.
+
+For help, use ?- help(Topic). or ?- apropos(Word).
+
+?- test1.[C[C[C["prologTest.prolog"].[C[C[C[C[C[C[C[C[C[C[CHomework.prolog"].
+[1mtrue.[0m
+
+?- ["prologHomework.prolog"].[C[C[Ctest1.[K[C[C[C["prologTest.prolog"].
+[1mtrue.[0m
+
+?- test1.
+[1mtrue [0m[1m.[0m
+
+?- test2.
+[1;31mfalse.[0m
+
+?- test3.
+[1mtrue [0m[1m.[0m
+
+?- test4.
+[1;31mfalse.[0m
+
+?- 
+[32m% halt
+[0m]0;godfreyr2@elvix2:~/proglang[godfreyr2@elvix2 ~/proglang]$ ^Dexit
+
+Script done on Tue 04 Apr 2017 12:26:04 PM EDT

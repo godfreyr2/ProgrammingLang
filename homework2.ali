@@ -1,0 +1,90 @@
+V "GNAT Lib v6"
+M P W=b
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_IMPLICIT_LOOPS
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+
+U homework2%b		homework2.adb		8bdb7099 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20160115095757 3ffc8e18 ada%s
+D a-except.ads		20160115095759 291912d5 ada.exceptions%s
+D a-inteio.ads		20160115095800 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20160115095800 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20160115095757 119b8fb3 ada.streams%s
+D a-tags.ads		20160115095758 01f5e3ef ada.tags%s
+D a-textio.ads		20160115095758 386df5d4 ada.text_io%s
+D a-tiinio.ads		20160115095757 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20160115095759 f9eb8f06 ada.unchecked_conversion%s
+D homework2.adb		20170302180150 45fd0ce9 homework2%b
+D interfac.ads		20160115095759 4be8ce1b interfaces%s
+D i-cstrea.ads		20160115095758 e53d8b8e interfaces.c_streams%s
+D system.ads		20160115095759 6326c08a system%s
+D s-crtl.ads		20160115095757 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160115095800 54135002 system.exception_table%s
+D s-ficobl.ads		20160115095800 078245e4 system.file_control_block%s
+D s-parame.ads		20160115095759 7e2a0d7f system.parameters%s
+D s-soflin.ads		20160115095759 14e1eb6c system.soft_links%s
+D s-stache.ads		20160115095759 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160115095800 09bd3940 system.standard_library%s
+D s-stoele.ads		20160115095759 2dc34a04 system.storage_elements%s
+D s-traent.ads		20160115095759 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160115095759 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20160115095759 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 10|8r6 8r19 9r5 9r18
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 10|8w23 9r22
+X 7 a-textio.ads
+49K13*Text_IO 471e16 10|8w10 9r9
+169U14*Skip_Line 10|51s10 94s10
+206U14*Get 10|44s10 45s10 46s10 47s10 48s10 49s10 50s10 90s10
+263U14*Put_Line 10|166s7 169s7
+X 8 a-tiinio.ads
+56U14*Get 10|91s10[3|18] 92s10[3|18] 93s10[3|18] 159s4[3|18]
+X 10 homework2.adb
+11U11*Homework2 11b11 174l5 174t14
+16A9 JobShift(character)<integer><integer> 17r9
+17a4 Job{16A9} 43r16 44m14 44r14 46m14 46r14 48m14 48r14 50m14 50r14 68r16
+. 69r19 72r32 73r32 142r16 143r29 143r58 144r33 144r64
+21R9 Employee 26e14 32r44 101r12 115r12 128r12
+22e7 Name{character} 90m20 104r19 118r19 131r19
+23i7 Phone{integer} 91m20 109r18
+24i7 Repair{integer} 92m20 123r18
+25i7 Net{integer} 93m20 136r18
+32A9 EmployeeRecords(21R9)<integer> 34r8
+34a4 ER{32A9} 90m14 90r14 91m14 91r14 92m14 92r14 93m14 93r14 104r13 105r20
+. 118r13 119r20 131r13 132r20
+35i4 NumberOfEmployees{integer} 89r20 103r19 117r19 130r19 159m8
+40U14 GetShifts 40b14 53l8 53t17 158s4
+41e7 ws{character} 45m14 47m14 49m14
+43i11 I{integer} 44r18 46r18 48r18 50r18
+64V13 CheckDupes{boolean} 64b13 81l8 81t18 165s27
+65A12 Temp(boolean)<integer> 66r10
+66a7 T{65A12} 72r16 73m16
+68i11 X{integer} 72r36 73r36
+69i14 I{integer} 72r39 73r39
+87U14 GetRecords 87b14 96l8 96t18 160s4
+89i11 X{integer} 90r17 91r17 92r17 93r17
+100V13 PhoneSkills{boolean} 100b13 100>25 110l8 110t19 143s17 143s46
+100e25 Name{character} 104r26
+101r7 Rec{21R9} 105m13 109r14
+103i11 X{integer} 104r16 105r23
+114V13 RepairSkills{boolean} 114b13 114>26 124l8 124t20 144s20
+114e26 Name{character} 118r26
+115r7 Rec{21R9} 119m13 123r14
+117i11 X{integer} 118r16 119r23
+127V13 NetworkSkills{boolean} 127b13 127>27 137l8 137t21 144s50
+127e27 Name{character} 131r26
+128r7 Rec{21R9} 132m13 136r14
+130i11 X{integer} 131r16 132r23
+140V13 ShiftsOk{boolean} 140b13 149l8 149t16 165s7
+142i11 X{integer} 143r33 143r62 144r37 144r68
+

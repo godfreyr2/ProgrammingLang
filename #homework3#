@@ -1,0 +1,23 @@
+%Ryan Godfrey
+
+%Prolog
+
+jobs_ok(Assignment, Employees) :- noDupes(Assignment).
+
+
+%true if the list contains no duplicate elements
+noDupes(L) :- flatten(L, N),
+	      is_set(N).
+
+%findEmpSkills(+Name, +Employees, -Skills)
+findEmpSkills(Name, [[Name | Skills] | _ ], Skills).
+findEmpSkills(Name, [_ | T], Skills) :- findEmpSkills(Name, T, Skills).
+
+doesThePhone(Name, Employees) :- findEmployeeSkills(Name, Employees, X),
+		   	      	 x = [1,_,_].
+doesTheComp(Name, Employees) :- findEmployeeSkills(Name, Employees, X),
+                                 x = [_,1doesTheComp(Name, Employees) :- findEmployeeSkills(Name, Employees, X),
+                                 x = [_,1,_].,_].
+
+
+		    	       	 
